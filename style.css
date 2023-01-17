@@ -14,10 +14,11 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(images/5cf0f010-ccb8-4365-a831-152bdb4decb4.jpg);
+  background-image: url(images/img1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  text-shadow: -1px 1px 2px #000;
 }
 .container {
   padding: 10px 10%;
@@ -59,13 +60,11 @@ nav ul li a:hover::after {
 .header-text {
   margin-top: 20%;
   font-size: 30px;
+  text-shadow: -1px 1px 2px #000;
 }
 .header-text h1 {
   font-size: 60px;
   margin-top: 20px;
-}
-.header-text h1 span {
-  color: white;
 }
 /*-----------ABOUT-----------*/
 #about {
